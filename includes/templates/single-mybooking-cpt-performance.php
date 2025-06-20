@@ -144,7 +144,7 @@ $performace_id = get_post_meta( $post->ID, 'mybooking-cpt-performance-performanc
                           <?php
                           wp_link_pages(
                               array(
-                                  'before' => '<div class="mybooking-entry-links">' . esc_html_x( 'Pages', 'pages_navigation', 'mybooking' ),
+                                  'before' => '<div class="mybooking-entry-links">' . esc_html_e( 'Pages', 'mybooking-cpt-performances' ),
                                   'after'  => '</div>',
                               )
                           );

@@ -7,28 +7,28 @@
         <?php
         switch ($quadisrentacar_details_seats) {
             case '2':
-                echo esc_html_x('2', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('2', 'mybooking-cpt-performances');
                 break;
             case '3':
-                echo esc_html_x('3', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('3', 'mybooking-cpt-performances');
                 break;
             case '4':
-                echo esc_html_x('4', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('4', 'mybooking-cpt-performances');
                 break;
             case '5':
-                echo esc_html_x('5', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('5', 'mybooking-cpt-performances');
                 break;
             case '6':
-                echo esc_html_x('6', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('6', 'mybooking-cpt-performances');
                 break;
             case '7':
-                echo esc_html_x('7', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('7', 'mybooking-cpt-performances');
                 break;
             case '8':
-                echo esc_html_x('8', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('8', 'mybooking-cpt-performances');
                 break;
             case '9':
-                echo esc_html_x('9', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('9', 'mybooking-cpt-performances');
                 break;
             default:
                 echo esc_html($quadisrentacar_details_seats);
@@ -45,16 +45,16 @@
         <?php
         switch ($quadisrentacar_details_doors) {
             case '2':
-                echo esc_html_x('2', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('2', 'mybooking-cpt-performances');
                 break;
             case '3':
-                echo esc_html_x('3', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('3', 'mybooking-cpt-performances');
                 break;
             case '4':
-                echo esc_html_x('4', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('4', 'mybooking-cpt-performances');
                 break;
             case '5':
-                echo esc_html_x('5', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('5', 'mybooking-cpt-performances');
                 break;
             default:
                 echo esc_html($quadisrentacar_details_doors);
@@ -72,19 +72,19 @@
         <?php
         switch ($quadisrentacar_details_trunk) {
             case '1':
-                echo esc_html_x('1', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('1', 'mybooking-cpt-performances');
                 break;
             case '2':
-                echo esc_html_x('2', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('2', 'mybooking-cpt-performances');
                 break;
             case '3':
-                echo esc_html_x('3', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('3', 'mybooking-cpt-performances');
                 break;
             case '4':
-                echo esc_html_x('4', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('4', 'mybooking-cpt-performances');
                 break;
             case '5':
-                echo esc_html_x('5', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('5', 'mybooking-cpt-performances');
                 break;
             default:
                 echo esc_html($quadisrentacar_details_doors);
@@ -101,16 +101,16 @@
         <?php
         switch ($quadisrentacar_details_fuel) {
             case 'petrol':
-                echo esc_html_x('Petrol', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('Petrol', 'mybooking-cpt-performances');
                 break;
             case 'diesel':
-                echo esc_html_x('Diesel', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('Diesel', 'mybooking-cpt-performances');
                 break;
             case 'electric':
-                echo esc_html_x('Electric', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('Electric', 'mybooking-cpt-performances');
                 break;
             case 'hybrid':
-                echo esc_html_x('Hybrid', 'quadisrentacar-archive', 'quadisrentacar');
+                echo esc_html_e('Hybrid', 'mybooking-cpt-performances');
                 break;
             default:
                 echo esc_html($quadisrentacar_details_fuel);
@@ -125,9 +125,9 @@
                  style="width: 25px; margin-left: 5px">
             <?php
             if ( $quadisrentacar_details_gear == 'manual' ) { ?>
-                <?php echo esc_html_x('Manual', 'quadisrentacar-archive', 'quadisrentacar') ?>
+                <?php echo esc_html_e('Manual', 'mybooking-cpt-performances') ?>
             <?php } else { ?>
-                <?php echo esc_html_x('Auto', 'quadisrentacar-archive', 'quadisrentacar') ?>
+                <?php echo esc_html_e('Auto', 'mybooking-cpt-performances') ?>
             <?php }
             ?>
           </span>

@@ -59,7 +59,7 @@ $price_from = get_post_meta( get_the_ID(), 'mybooking-cpt-performance-price-from
       <!-- Card footer -->
       <div class="mybooking-cpt_card-footer">
         <a class="button mybooking-cpt_btn-book w-100" role="button" href="<?php the_permalink(); ?>">
-            <?php echo esc_html_x('Book Now!', 'mybooking-cpt-performances') ?>
+            <?php echo esc_html_e('Book Now!', 'mybooking-cpt-performances') ?>
         </a>
       </div>
     </div>

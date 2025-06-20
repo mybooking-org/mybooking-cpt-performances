@@ -1,15 +1,14 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: MyBooking CPT Performances\n"
 "POT-Creation-Date: 2025-06-20 08:52+0200\n"
-"PO-Revision-Date: 2025-06-20 08:48+0200\n"
+"PO-Revision-Date: 2025-06-20 08:58+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 3.6\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
@@ -25,224 +24,229 @@ msgstr ""
 #: includes/class-mybooking-cpt-performances-cpt.php:41
 #: includes/class-mybooking-cpt-performances-cpt.php:42
 msgid "Performances"
-msgstr ""
+msgstr "Actuaciones"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:20
 msgid "Performance"
-msgstr ""
+msgstr "Rendimiento"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:21
 msgid "Add New"
-msgstr ""
+msgstr "Añadir nuevo"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:22
 msgid "Add New Performance"
-msgstr ""
+msgstr "Añadir nuevo desempeño"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:23
 msgid "Edit Performance"
-msgstr ""
+msgstr "Editar desempeño"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:24
 msgid "New Performance"
-msgstr ""
+msgstr "Nueva excursión"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:25
 msgid "View Performance"
-msgstr ""
+msgstr "Ver excursión"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:26
 msgid "View Performances"
-msgstr ""
+msgstr "Ver Excursiones"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:27
 msgid "Search Performances"
-msgstr ""
+msgstr "Búsqueda de excursiones"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:28
 msgid "No performances found"
-msgstr ""
+msgstr "No se han encontrado excursiones"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:29
 msgid "No performances found in Trash"
-msgstr ""
+msgstr "No se han encontrado excursiones en la papelera"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:87
 msgid "Performance Details"
-msgstr ""
+msgstr "Detalles de la excursión"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:109
 msgid "Image gallery"
-msgstr ""
+msgstr "Galería de imágenes"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:163
 msgid ""
 "Add multiple images from your media library to create a carousel. Click and "
 "drag to change the order."
 msgstr ""
+"Agregue varias imágenes de su biblioteca multimedia para crear un carrusel. "
+"Haga clic y arrastre para cambiar el orden."
 
 #: includes/class-mybooking-cpt-performances-cpt.php:177
 msgid "Duration (hours)"
-msgstr ""
+msgstr "Duración (horas)"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:190
 msgid "Input the duration of the performance in hours"
-msgstr ""
+msgstr "Introduzca la duración de la excursión en horas"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:203
 msgid "Duration (minutes)"
-msgstr ""
+msgstr "Duración (minutos)"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:216
 msgid "Input the duration of the performance in minutes"
-msgstr ""
+msgstr "Introduzca la duración de la excursión en minutos"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:229
 msgid "Price (from)"
-msgstr ""
+msgstr "Precio (desde)"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:242
 msgid "Input the starting price of the performance"
-msgstr ""
+msgstr "Introduzca el precio inicial de la excursión"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:255
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:267
 msgid "Input the category code of the performance"
-msgstr ""
+msgstr "Introduzca el código de categoría de la excursión"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:280
 msgid "Performance ID"
-msgstr ""
+msgstr "Id. de la excursión"
 
 #: includes/class-mybooking-cpt-performances-cpt.php:292
 msgid "Input the performance ID of the performance"
-msgstr ""
+msgstr "Introduzca el ID de la excursión"
 
 #: includes/class-mybooking-cpt-performances-shortcode.php:47
 msgid "There are no performances available"
-msgstr ""
+msgstr "No hay excursiones disponibles"
 
 #: includes/class-mybooking-cpt-performances.php:64
 msgid "MyBooking Performance Sidebar"
-msgstr ""
+msgstr "Barra lateral del CPT de excursiones de MyBooking"
 
 #: includes/class-mybooking-cpt-performances.php:66
 msgid "Widgets in this area will be shown on the performance detail page."
 msgstr ""
+"Los widgets de esta área se mostrarán en la página de detalles de la "
+"excursión."
 
 #: includes/class-mybooking-cpt-performances.php:74
 msgid "MyBooking Performance Bottom"
-msgstr ""
+msgstr "Parte inferior del CPT de excursiones de MyBooking"
 
 #: includes/class-mybooking-cpt-performances.php:76
 msgid "Widgets in this area will be shown below the performance detail."
 msgstr ""
+"Los widgets de esta área se mostrarán debajo del detalle de la excursión"
 
 #: includes/templates/loop-part.php:62
 msgid "Book Now!"
-msgstr ""
+msgstr "¡Reservar ahora!"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:10
 #: includes/templates/mybooking-cpt-performances-loop-details.php:48
 #: includes/templates/mybooking-cpt-performances-loop-details.php:78
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:13
 #: includes/templates/mybooking-cpt-performances-loop-details.php:51
 #: includes/templates/mybooking-cpt-performances-loop-details.php:81
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:16
 #: includes/templates/mybooking-cpt-performances-loop-details.php:54
 #: includes/templates/mybooking-cpt-performances-loop-details.php:84
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:19
 #: includes/templates/mybooking-cpt-performances-loop-details.php:57
 #: includes/templates/mybooking-cpt-performances-loop-details.php:87
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:22
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:25
 msgid "7"
-msgstr ""
+msgstr "7"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:28
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:31
 msgid "9"
-msgstr ""
+msgstr "9"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:75
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:104
 msgid "Petrol"
-msgstr ""
+msgstr "Gasolina"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:107
 msgid "Diesel"
-msgstr ""
+msgstr "Diesel"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:110
 msgid "Electric"
-msgstr ""
+msgstr "Eléctrico"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:113
 msgid "Hybrid"
-msgstr ""
+msgstr "Híbrido"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:128
 msgid "Manual"
-msgstr ""
+msgstr "Manual"
 
 #: includes/templates/mybooking-cpt-performances-loop-details.php:130
 msgid "Auto"
-msgstr ""
+msgstr "Automático"
 
 #. translators: %s: privacy policy URL
 #: includes/templates/single-mybooking-cpt-performance.php:50
 #, php-format
 msgid "From %s €"
-msgstr ""
+msgstr "Desde %s €"
 
 #: includes/templates/single-mybooking-cpt-performance.php:106
 msgid "Book"
-msgstr ""
+msgstr "Libro"
 
 #: includes/templates/single-mybooking-cpt-performance.php:147
 msgid "Pages"
-msgstr ""
+msgstr "Páginas"
 
 #. Plugin Name of the plugin/theme
 msgid "MyBooking CPT Performances"
-msgstr ""
+msgstr "MyBooking CPT Performances"
 
 #. Plugin URI of the plugin/theme
 msgid "https://example.com/mybooking-cpt-performances"
-msgstr ""
+msgstr "https://example.com/mybooking-cpt-performances"
 
 #. Description of the plugin/theme
 msgid "A plugin to manage custom post types for performances in MyBooking."
-msgstr ""
+msgstr "Un plugin para gestionar excursiones en MyBooking."
 
 #. Author of the plugin/theme
 msgid "Your Name"
-msgstr ""
+msgstr "Tu nombre"
 
 #. Author URI of the plugin/theme
 msgid "https://example.com"
-msgstr ""
+msgstr "https://ejemplo.com"

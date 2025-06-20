@@ -51,7 +51,11 @@ class MyBooking_CPT_Performances {
      * Carga el dominio de texto del plugin para las traducciones.
      */
     public function load_textdomain() {
-      load_plugin_textdomain( 'mybooking-cpt-performances', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+      load_plugin_textdomain(
+        'mybooking-cpt-performances',
+        false,
+        dirname(dirname(plugin_basename(__FILE__))) . '/languages'
+      );
     }
 
     /**
@@ -90,12 +94,10 @@ class MyBooking_CPT_Performances {
             has_shortcode(get_post_field('post_content', get_the_ID()), 'mybooking_cpt_performances')) { // Make sure it only loads on the detail page
             // Load CSS
             wp_enqueue_style('mybooking-cpt-performances-gallery-css', 
-                             plugins_url('/mybooking-cpt-performances/assets/css/mybooking-cpt-performances-gallery.css'), 
-                                         dirname( __FILE__ ));
+                             MYBOOKING_CPT_PERFORMANCES_PLUGIN_URL.'assets/css/mybooking-cpt-performances-gallery.css');
             // Load JS
             wp_enqueue_script('mybooking-cpt-performances-gallery-js', 
-                              plugins_url('/mybooking-cpt-performances/assets/js/mybooking-cpt-performances-gallery.js'), 
-                                          dirname( __FILE__ ));
+                              MYBOOKING_CPT_PERFORMANCES_PLUGIN_URL.'assets/js/mybooking-cpt-performances-gallery.js');
         }
     }
 

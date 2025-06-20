@@ -20,5 +20,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 //include_once dirname( __FILE__ ) . 'includes/class-mybooking-cpt-performances.php';
 require_once 'includes/class-mybooking-cpt-performances.php';
 
+$url = plugin_dir_url(__FILE__);
+define('MYBOOKING_CPT_PERFORMANCES_PLUGIN_URL', $url );
+
 // Initialize the plugin.
 $mybooking_cpt_performances = new MyBooking_CPT_Performances();
