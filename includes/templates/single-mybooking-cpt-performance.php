@@ -140,16 +140,6 @@ $performace_id = get_post_meta( $post->ID, 'mybooking-cpt-performance-performanc
 
                     <div class="mb-row">
                       <div class="mb-col-md-12">
-                          <!-- Link pages -->
-                          <?php
-                          wp_link_pages(
-                              array(
-                                  'before' => '<div class="mybooking-entry-links">' . esc_html_e( 'Pages', 'mybooking-cpt-performances' ),
-                                  'after'  => '</div>',
-                              )
-                          );
-                          ?>
-
                           <!-- Footer -->
                           <footer class="entry-footer">
                               <?php
