@@ -56,10 +56,6 @@
   }
 }
 
-.mybooking-cpt_grid{
-  width: 33.333333333%;
-}
-
 @media ( max-width: 575.98px ) {
   .mybooking-cpt_grid {
     display: block;

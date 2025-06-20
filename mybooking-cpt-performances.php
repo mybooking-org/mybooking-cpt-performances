@@ -3,7 +3,7 @@
  * Plugin Name: MyBooking CPT Performances
  * Plugin URI: https://example.com/mybooking-cpt-performances
  * Description: A plugin to manage custom post types for performances in MyBooking.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Your Name
  * Author URI: https://example.com
  * License: GPL2
