@@ -16,7 +16,7 @@ class MyBooking_CPT_Performances_Shortcode {
     // Constructing the query arguments
     $args = array(
         'post_type'      => 'mb_cpt_performance',
-        'posts_per_page' => 6, // Number of performances to show
+        'posts_per_page' => 12, // Number of performances to show
         'tax_query'      => array(),
     );
 

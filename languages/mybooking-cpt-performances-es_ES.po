@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: MyBooking CPT Performances\n"
 "POT-Creation-Date: 2025-06-20 08:52+0200\n"
-"PO-Revision-Date: 2025-06-20 08:58+0200\n"
+"PO-Revision-Date: 2025-06-20 13:18+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -225,7 +225,7 @@ msgstr "Desde %s €"
 
 #: includes/templates/single-mybooking-cpt-performance.php:106
 msgid "Book"
-msgstr "Libro"
+msgstr "Reservar"
 
 #: includes/templates/single-mybooking-cpt-performance.php:147
 msgid "Pages"
